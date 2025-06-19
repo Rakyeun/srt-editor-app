@@ -13,7 +13,7 @@ def generate_edit_guide(srt_text, edit_topic, api_key):
     """
     try:
         genai.configure(api_key=api_key)
-        model = genai.GenerativeModel('gemini-1.5-pro-latest')
+        model = genai.GenerativeModel('gemini-2.0-flash')
     except Exception as e:
         st.error(f"API 키 설정에 실패했습니다. 올바른 키인지 확인해주세요. 오류: {e}")
         return None
