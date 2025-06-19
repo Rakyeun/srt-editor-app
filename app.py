@@ -89,7 +89,7 @@ st.markdown("---")
 uploaded_file = st.file_uploader("1. 원본 SRT 자막 파일을 업로드하세요.", type=['srt'])
 
 # 2. 주제 입력
-topic = st.text_input("2. 영상 편집의 주제를 입력하세요.", placeholder="예: 수영 잘하는 법")
+topic = st.text_input("2. 영상 편집의 주제를 입력하세요.", placeholder="예: 경주 apec (아펙)을 준비하면서 우려하는 점들")
 
 # 3. 생성 버튼
 if st.button("✨ 편집 가이드 생성하기"):
